@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(67, 69, 130);
+    color: rgb(0, 0, 0);
+    padding: 1px 26px;
+   
+  }
+  
+  header h1 {
+    margin: 10px;
+    text-align: start;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 27px 25px ;
+    display: flex;
+    color: #fff;
+    
+    
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .hero {
+    background-image: url(bsc.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    color: #000000;
+    margin-top: -25px;
+    
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h2 {
+    margin: 0;
+  }
+
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .featured {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(cracked-wood-wallpaper-mural-plain.jpg);
+  }
+  
+  .product {
+    display: inline-block;
+    margin: 20px;
+      cursor: pointer;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+  }
+
+   .footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+   }
+   input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 13px; /* Add a top margin */
+    margin-bottom: 12px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+ 
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px 50px 63px 39px;
+   
+  }
+   .content-header{
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+   }
+   .button{
+    text-align: center;
+ 
+    color: rgb(16, 15, 15);
+    padding: 2px;
+   }
+   .ft{
+    text-align: center;
+margin-top: 11px;
+margin-bottom: 18px;
+   }
+   .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .column {
+    float: left;
+    width: 34.3%;
+    margin-bottom: 36px;
+    padding: 35px 91px;
+  }
+  
+  .card {
+    box-shadow: 24px -19px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 11px -81px -43px -63px;
+  }
+  .form-container{
+    padding-bottom: 30px;
+  }
+  .form-con{
+    margin-bottom: 20px;
+    padding: 25px;
+  }
